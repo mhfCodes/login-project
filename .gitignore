@@ -12,3 +12,5 @@ local.properties
 .loadpath
 .factorypath
 build/
+src/main/webapp/WEB-INF/lib/
+src/main/webapp/META-INF
