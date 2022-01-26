@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet {
 		try {
 			// Connect To The Database
 			Class.forName("org.postgresql.Driver");
-			Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/login", "postgres", "rekaeil");
+			Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/login", "postgres", "xxxx");
 			
 			// Search For The username
 			String sql = "SELECT * FROM users WHERE username=?";
